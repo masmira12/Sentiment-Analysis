@@ -25,8 +25,8 @@ filename = 'finalized_model_cancer1.sav'
 clf = pickle.load(open(filename, 'rb'))
 
 
-print(" 1- File")
-print(" 2 - Text")
+print(" 1- Enter File")
+print(" 2 - Enter Text")
 choose =  input("Please choose:")
 choose = int(choose)
 
